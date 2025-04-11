@@ -22,8 +22,8 @@ const projects = [
       "MongoDB",
       "Tailwind",
     ],
-    link: "#",
-    github: "#",
+    link: "https://feelochat.sahellx.site/",
+    github: "https://github.com/sahell0x/FeeloChat",
     icon: <MessageSquare className="h-10 w-10 text-primary" />,
   },
   {
@@ -31,8 +31,8 @@ const projects = [
     description:
       "A web-based AI agent application that analyzes and visualizes algorithms and code snippets in multiple programming languages. Utilized AI techniques to generate insights, explanations, and debugging suggestions for better comprehension.",
     techStack: ["React.js", "Express.js", "TypeScript", "Node.js", "Tailwind", "Custom AI agent"],
-    link: "#",
-    github: "#",
+    link: "https://codeatopsy.sahellx.site/",
+    github: "https://github.com/sahell0x/Code-Autopsy",
     icon: <Code2 className="h-10 w-10 text-primary" />,
   },
 ]

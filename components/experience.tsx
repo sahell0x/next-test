@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
-import { Calendar, ArrowRight } from "lucide-react"
+import { motion } from "framer-motion";
+import { Card, CardContent } from "@/components/ui/card";
+import { Calendar, ArrowRight } from "lucide-react";
 
 const experiences = [
   {
     title: "Open Source – Sparrow (Next Gen API Testing Tool)",
     company: "Techdome",
-    period: "2023 - Present",
+    period: "",
     type: "Open Source",
     responsibilities: [
       "Added API response download functionality, improving data accessibility in the web app.",
@@ -20,7 +20,7 @@ const experiences = [
   {
     title: "Open Source – Bruno (API Testing Tool)",
     company: "Open Source",
-    period: "2023 - Present",
+    period: "",
     type: "Open Source",
     responsibilities: [
       "Enhanced the UI by implementing support for handling and rendering SVG responses, ensuring accurate visualization and improved user experience.",
@@ -38,7 +38,7 @@ const experiences = [
       "Implemented effective state management, enhancing maintainability.",
     ],
   },
-]
+];
 
 export default function Experience() {
   return (
@@ -68,10 +68,16 @@ export default function Experience() {
                       <h3 className="text-xl font-bold">{exp.title}</h3>
                       <p className="text-muted-foreground">{exp.company}</p>
                     </div>
-                    <div className="flex items-center mt-2 md:mt-0">
-                      <Calendar className="h-4 w-4 mr-1 text-primary" />
-                      <span className="text-sm text-muted-foreground">{exp.period}</span>
-                    </div>
+                    {exp.period ? (
+                      <div className="flex items-center mt-2 md:mt-0">
+                        <Calendar className="h-4 w-4 mr-1 text-primary" />
+                        <span className="text-sm text-muted-foreground">
+                          {exp.period}
+                        </span>
+                      </div>
+                    ) : (
+                      ""
+                    )}
                   </div>
 
                   <div className="space-y-2">
@@ -89,5 +95,5 @@ export default function Experience() {
         </div>
       </motion.div>
     </section>
-  )
+  );
 }

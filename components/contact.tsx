@@ -50,7 +50,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium">Location</h4>
-                      <p className="text-muted-foreground">Khargone, India</p>
+                      <p className="text-muted-foreground">Indore, India</p>
                     </div>
                   </div>
                 </div>
@@ -59,17 +59,17 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl font-bold mb-6">Social Profiles</h3>
                 <div className="flex gap-4">
-                  <Link href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/sahell0x" target="_blank" rel="noopener noreferrer">
                     <div className="bg-primary/10 p-4 rounded-full hover:bg-primary/20 transition-colors">
                       <Github className="h-6 w-6 text-primary" />
                     </div>
                   </Link>
-                  <Link href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/sahil-khan-a3ba6130a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                     <div className="bg-primary/10 p-4 rounded-full hover:bg-primary/20 transition-colors">
                       <Linkedin className="h-6 w-6 text-primary" />
                     </div>
                   </Link>
-                  <Link href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://leetcode.com/u/Sahell/" target="_blank" rel="noopener noreferrer">
                     <div className="bg-primary/10 p-4 rounded-full hover:bg-primary/20 transition-colors">
                       <Code2 className="h-6 w-6 text-primary" />
                     </div>

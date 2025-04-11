@@ -14,11 +14,11 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         <Hero />
 
-        <div className="flex justify-center my-12">
+        {/* <div className="flex justify-center my-12">
           <div className="animate-bounce bg-primary/10 p-2 rounded-full">
             <ArrowDown className="h-6 w-6 text-primary" />
           </div>
-        </div>
+        </div> */}
 
         <Experience />
         <Skills />

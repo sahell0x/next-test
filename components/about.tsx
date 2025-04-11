@@ -16,12 +16,12 @@ export default function About() {
         <div className="w-20 h-1 bg-primary mx-auto mb-10 rounded-full"></div>
 
         <div className="max-w-3xl mx-auto">
-          <p className="text-lg mb-6 text-muted-foreground">
+          <p className="text-lg mb-6 text-muted-foreground text-justify">
             I am a passionate MERN stack developer with a strong interest in open source contributions. My expertise
             lies in building scalable, efficient, and high-performance web applications using modern technologies and
             best practices.
           </p>
-          <p className="text-lg mb-6 text-muted-foreground">
+          <p className="text-lg mb-6 text-muted-foreground text-justify">
             With experience in both frontend and backend development, I enjoy creating seamless user experiences while
             ensuring robust and maintainable codebases. I am constantly learning and exploring new technologies to
             enhance my skills.
@@ -37,7 +37,7 @@ export default function About() {
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="h-5 w-5 text-primary" />
-              <span>Khargone, India</span>
+              <span>Indore, India</span>
             </div>
           </div>
         </div>
