@@ -29,7 +29,7 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-16">
+    <section id="skills" className="py-16 px-4 sm:px-6 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -48,20 +48,20 @@ export default function Skills() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full">
-                <CardContent className="p-6">
-                  <div className="flex flex-col items-center mb-4">
+              <Card className="h-full shadow-md">
+                <CardContent className="p-6 flex flex-col justify-between">
+                  <div className="flex flex-col items-center text-center mb-4">
                     {category.icon}
                     <h3 className="text-xl font-semibold mt-2">{category.title}</h3>
                   </div>
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap justify-center gap-2 text-sm text-justify">
                     {category.skills.map((skill, skillIndex) => (
-                      <div
+                      <span
                         key={skillIndex}
-                        className="bg-primary/10 text-primary px-3 py-2 rounded-md inline-block mr-2 mb-2"
+                        className="bg-primary/10 text-primary px-3 py-1.5 rounded-md"
                       >
                         {skill}
-                      </div>
+                      </span>
                     ))}
                   </div>
                 </CardContent>
