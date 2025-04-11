@@ -7,10 +7,12 @@ import Navbar from "@/components/navbar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Sahil Khan | MERN Stack Developer",
+  title: "Sahil Khan",
   description:
     "Portfolio website of Sahil Khan, a passionate MERN stack developer specializing in building scalable, efficient, and high-performance web applications.",
-    generator: 'v0.dev'
+    icons: {
+      icon: "https://img.icons8.com/doodle/96/portfolio.png",
+    },
 }
 
 export default function RootLayout({
